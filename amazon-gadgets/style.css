@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 @media (max-width: 480px) and (orientation: portrait){
+main h1{
+    margin:1rem 0;
+}
     /* STYLE THE MENU BUTTON */
     
 h1{
