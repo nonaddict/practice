@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 @media (max-width: 480px) and (orientation: portrait){
+  .heading {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+    height: 30vh; /* assume this is actual height */
+  }
 main h1{
     margin:1rem 0;
 }
@@ -14,6 +23,7 @@ h1{
     font-family: Raleway;
 }
 header{
+  margin:1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -145,7 +155,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 30vh;
   }
   
   .item-card {
