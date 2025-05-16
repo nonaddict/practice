@@ -89,21 +89,25 @@ function toFilter(value) {
     // Listen for typing
     input.addEventListener('input', () => {
       displayNames(toFilter(input.value));
+      window.scrollTo(0, 0);
     });
 
     // Listen for Enter and Space keys
     input.addEventListener('keydown', (event) => {
       if (event.key === 'Enter') {
         displayNames(toSearch(input.value));
+        window.scrollTo(0, 0);
       }
       if (event.key === ' ') {
         // Just filter again on space
         displayNames(toFilter(input.value));
+        window.scrollTo(0, 0);
       }
     });
 
     // Search button click
     searchButton.addEventListener('click', () => {
       displayNames(toSearch(input.value));
+      window.scrollTo(0, 0);
     });
   });
