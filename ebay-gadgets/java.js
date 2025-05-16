@@ -4,6 +4,7 @@ const iconDown=document.querySelector('.menu-icon-down');
 const iconMiddle=document.querySelector('.menu-icon-middle');
 const menu=document.querySelector('.navigation');
 const hide=document.querySelector('.main');
+const hidResultes=document.querySelector('#results')
 
 button.addEventListener('click',()=>{
     iconUp.classList.toggle('menu-icon-up-action');
@@ -11,6 +12,7 @@ button.addEventListener('click',()=>{
     iconMiddle.classList.toggle('menu-icon-middle-action');
     menu.classList.toggle('navigation-action');
     hide.classList.toggle('main-remove');
+    hidResultes.classList.toggle('hide-results');
 });
 
 import products from './products.js';
