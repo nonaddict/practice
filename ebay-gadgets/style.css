@@ -308,8 +308,8 @@ li a{
         transform:scaleX(1);
     }
 }
-.main-remove{
-    display:none;
+.main-remove, .hide-results{
+    display:none !important;
 }
 
     body {
