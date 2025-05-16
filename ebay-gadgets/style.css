@@ -13,7 +13,7 @@
     left: 0;
     width: 100vw;
     z-index: 10;
-    height: 55vh; /* assume this is actual height */
+    height: 50vh; /* assume this is actual height */
   }
 main h1{
     margin:1rem 0;
@@ -156,7 +156,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    margin-top: 55vh;
+    margin-top: 50vh;
   }
   
   .item-card {
